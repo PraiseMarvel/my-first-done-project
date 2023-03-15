@@ -385,18 +385,18 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
-  background: red;
+  height: 100vh;
+  background: black;
 }
 
 #hero .container {
-  padding-top: 72px;
+  padding-top: 90px;
 }
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 55px;
+  font-weight: 1000;
   line-height: 56px;
   color: #fff;
 }
@@ -417,12 +417,12 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px 0 0 0;
-  color: #fff;
+  color: yellow;
   background: darkred;
 }
 
 #hero .btn-get-started:hover {
-  background: orangered;
+  background: yellow;
 }
 
 #hero .btn-watch-video {
@@ -466,7 +466,7 @@ h6 {
   }
 
   #hero .hero-img img {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -541,7 +541,7 @@ section {
   display: block;
   width: 120px;
   height: 1px;
-  background: #ddd;
+  background: yellow;
   bottom: 1px;
   left: calc(50% - 60px);
 }
@@ -641,7 +641,7 @@ section {
 
 .about .content .btn-learn-more:hover {
   background: darkred;
-  color: #fff;
+  color: yellow;
   text-decoration: none;
 }
 
@@ -666,7 +666,7 @@ section {
 
 .why-us .content p {
   font-size: 15px;
-  color: snow;
+  color: yellow;
 }
 
 .why-us .img {
@@ -690,7 +690,7 @@ section {
 
 .why-us .accordion-list li {
   padding: 20px;
-  background: #fff;
+  background: yellow;
   border-radius: 4px;
 }
 
@@ -844,7 +844,7 @@ section {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
-  background: #fff;
+  background: yellow;
 }
 
 .services .icon-box .icon {
@@ -883,25 +883,25 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Cta
+# big subaru
 --------------------------------------------------------------*/
-.cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+.big subaru {
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("...assets/img/big subaru.jpeg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
 
-.cta h3 {
+.big subaru h3 {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-.cta p {
+.big subaru p {
   color: #fff;
 }
 
-.cta .cta-btn {
+.big subaru .big subaru-btn {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -915,19 +915,19 @@ section {
   color: #fff;
 }
 
-.cta .cta-btn:hover {
-  background: darkred;
+.big subaru .big subaru-btn:hover {
+  background: black;
   border: 2px solid darkred;
 }
 
 @media (max-width: 1024px) {
-  .cta {
+  .big subaru {
     background-attachment: scroll;
   }
 }
 
 @media (min-width: 769px) {
-  .cta .cta-btn-container {
+  .big subaru .big subaru-btn-container {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -988,7 +988,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
-  color: #fff;
+  color: yellow;
   font-weight: 600;
   color: #fff;
   margin-bottom: 0px;
@@ -1030,20 +1030,20 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.team-details {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-slider img {
+.team-details .team-details-slider img {
   width: 100%;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.team-details .team-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.team-details .team-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -1051,16 +1051,16 @@ section {
   border: 1px solid darkred;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: darkred;
+.team-details .team-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: black;
 }
 
-.portfolio-details .portfolio-info {
+.team-details .team-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(55, 81, 126, 0.08);
 }
 
-.portfolio-details .portfolio-info h3 {
+.team-details .team-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1068,27 +1068,27 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-.portfolio-details .portfolio-info ul {
+.team-details .team-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.team-details .team-info ul li+li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.team-details .team-description {
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.team-details .team-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.team-details .team-description p {
   padding: 0;
 }
 
@@ -1127,7 +1127,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: red;
+  color: darkred;
 }
 
 .team .member span {
@@ -1477,8 +1477,8 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
+  border-top: 3px solid yellow;
+  border-bottom: 3px solid black;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1512,7 +1512,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: darkred;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1532,7 +1532,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid yellow;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1555,7 +1555,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #47b2e4;
+  border-color: black;
 }
 
 .contact .php-email-form input {
@@ -1567,7 +1567,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #47b2e4;
+  background: black;
   border: 0;
   padding: 12px 34px;
   color: #fff;
@@ -1576,7 +1576,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #209dd8;
+  background: black;
 }
 
 @keyframes animate-loading {
@@ -1608,7 +1608,7 @@ section {
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 600;
-  color: #37517e;
+  color: black;
 }
 
 .breadcrumbs ol {
@@ -1627,7 +1627,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #4668a2;
+  color: white;
   content: "/";
 }
 
@@ -1636,7 +1636,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: black;
 }
 
 #footer .footer-newsletter {
@@ -1653,7 +1653,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #37517e;
+  color: black;
 }
 
 #footer .footer-newsletter form {
@@ -1681,7 +1681,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #47b2e4;
+  background: black;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1689,7 +1689,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #209dd8;
+  background: black;
 }
 
 #footer .footer-top {
@@ -1708,7 +1708,7 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #37517e;
+  color: red;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1722,7 +1722,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #37517e;
+  color: red;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1739,7 +1739,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #47b2e4;
+  color: darkred;
   font-size: 18px;
   line-height: 1;
 }
@@ -1763,13 +1763,13 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #47b2e4;
+  color: black;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #47b2e4;
+  background: darkred;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1782,7 +1782,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #209dd8;
+  background: black;
   color: #fff;
   text-decoration: none;
 }
@@ -1809,7 +1809,7 @@ section {
 @media (max-width: 768px) {
   #footer .footer-bottom {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
 
   #footer .copyright,
